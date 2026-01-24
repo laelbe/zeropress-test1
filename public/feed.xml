@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZeroPress</title>
+    <link>https://myblog.com4</link>
+    <description>A blog about web development, design, and technology trends.454</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Jan 2026 13:59:47 GMT</lastBuildDate>
+    <atom:link href="https://myblog.com4/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello first zeropress!</title>
+      <link>https://myblog.com4/posts/hello-first-zeropress/</link>
+      <guid>https://myblog.com4/posts/hello-first-zeropress/</guid>
+      <pubDate>Fri, 23 Jan 2026 09:23:14 GMT</pubDate>
+      <description>hello first zeropress에 대한 글입니다. 간결하게 핵심 내용을 전달하며, 독자가 쉽게 이해할 수 있도록 구성되었습니다.</description>
+      <author>admin@lael.be (Lael)</author>
+      
+    </item>
+  </channel>
+</rss>

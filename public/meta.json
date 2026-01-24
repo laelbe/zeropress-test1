@@ -1,0 +1,22 @@
+{
+  "generated": "2026-01-23T13:59:47.751Z",
+  "site": {
+    "title": "ZeroPress",
+    "description": "A blog about web development, design, and technology trends.454",
+    "url": "https://myblog.com4",
+    "language": "en"
+  },
+  "pages": [
+    {
+      "url": "/posts/hello-first-zeropress/",
+      "title": "hello first zeropress!",
+      "description": "hello first zeropress에 대한 글입니다. 간결하게 핵심 내용을 전달하며, 독자가 쉽게 이해할 수 있도록 구성되었습니다.",
+      "publishedAt": "2026-01-23T09:23:14.147Z",
+      "updatedAt": "2026-01-23T13:57:40.105Z",
+      "type": "post",
+      "metadata": {
+        "featuredImageId": null
+      }
+    }
+  ]
+}
