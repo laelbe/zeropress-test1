@@ -1,40 +1,175 @@
-<header class="site-header">
-  <div class="container">
-    <a href="/" class="site-logo">ZeroPress</a>
-    <nav class="main-nav">
-    </nav>
-  </div>
-</header>
-
-<main class="container">
-  <section class="hero">
-    <h1>ZeroPress</h1>
-    <p class="site-description">A blog about web development, design, and technology trends.454</p>
-  </section>
-
-  <section class="posts-section">
-    <h2>최근 글</h2>
-    <div class="posts-grid">
-        <article class="post-card">
-          <div class="post-card-content">
-            <h3 class="post-card-title">
-              <a href="/posts/hello-first-zeropress/">hello first zeropress!</a>
-            </h3>
-            <p class="post-card-excerpt">hello first zeropress에 대한 글입니다. 간결하게 핵심 내용을 전달하며, 독자가 쉽게 이해할 수 있도록 구성되었습니다.</p>
-            <div class="post-card-meta">
-              <span class="post-card-date">2026-01-23</span>
-              <span class="post-card-author">Lael</span>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiet Corner - 홈</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="search-theme-wrapper">
+                    <input type="search" class="search-input" placeholder="검색...">
+                    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+                </div>
             </div>
-          </div>
-        </article>
-    </div>
+            
+            <div class="header-center">
+                <h1 class="site-title">The Quiet Corner</h1>
+                <p class="site-subtitle">Thoughts on life, creativity, and the art of slow living</p>
+            </div>
+            
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  </section>
-</main>
+    <main class="container main-content">
+        <div class="content-grid">
+            <div class="posts-area">
+                <h2 class="section-title">Latest Posts</h2>
+                
+                <!-- Featured Post -->
+                <article class="blog-card featured">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=450&fit=crop" alt="Finding Stillness" class="post-image">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Mindfulness</span>
+                            <span class="date">January 12, 2025</span>
+                            <span class="reading-time">5 min read</span>
+                        </div>
+                        <h3 class="post-title"><a href="post-finding-stillness.html">On Finding Stillness in a Busy World</a></h3>
+                        <p class="post-excerpt">In the constant hum of modern life, silence has become a rare luxury. Yet it is in these quiet moments that we often find our truest selves. This is a reflection on carving out space for stillness amidst the chaos.</p>
+                        <div class="post-tags">
+                            <span class="tag">mindfulness</span>
+                            <span class="tag">slow-living</span>
+                            <span class="tag">self-care</span>
+                        </div>
+                        <div class="post-stats">
+                            <span>👁 1,247 views</span>
+                            <span>❤️ 89 likes</span>
+                        </div>
+                    </div>
+                </article>
 
-<footer class="site-footer">
-  <div class="container">
-    <p>&copy;  ZeroPress. All rights reserved.</p>
-    <p>Powered by <a href="https://zeropress.dev" target="_blank">ZeroPress</a></p>
-  </div>
-</footer>
+                <!-- Regular Posts -->
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=450&fit=crop" alt="Handwritten Letters" class="post-image">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Life</span>
+                            <span class="date">January 8, 2025</span>
+                            <span class="reading-time">4 min read</span>
+                        </div>
+                        <h3 class="post-title"><a href="post-handwritten-letters.html">The Joy of Handwritten Letters</a></h3>
+                        <p class="post-excerpt">There is something deeply personal about receiving a handwritten letter. The texture of the paper, the unique curve of someone's script—it carries a warmth that no email can replicate.</p>
+                        <div class="post-tags">
+                            <span class="tag">writing</span>
+                            <span class="tag">connection</span>
+                            <span class="tag">slow-living</span>
+                        </div>
+                        <div class="post-stats">
+                            <span>👁 856 views</span>
+                            <span>❤️ 64 likes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&h=450&fit=crop" alt="Morning Rituals" class="post-image">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="category">Life</span>
+                            <span class="date">January 3, 2025</span>
+                            <span class="reading-time">4 min read</span>
+                        </div>
+                        <h3 class="post-title"><a href="post-morning-rituals.html">Morning Rituals That Changed Everything</a></h3>
+                        <p class="post-excerpt">How the first hour of your day can set the tone for everything that follows. A personal exploration of morning practices that have brought more intentionality to my life.</p>
+                        <div class="post-tags">
+                            <span class="tag">rituals</span>
+                            <span class="tag">productivity</span>
+                            <span class="tag">wellness</span>
+                        </div>
+                        <div class="post-stats">
+                            <span>👁 1,523 views</span>
+                            <span>❤️ 112 likes</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">About</h3>
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face" alt="Eleanor Reed" class="author-avatar">
+                    <p class="sidebar-text">Writer, reader, and slow living enthusiast. I write about finding meaning in the ordinary moments and cultivating a life of intentional simplicity.</p>
+                    <a href="about.html" class="sidebar-link">Read more →</a>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="category-mindfulness.html">Mindfulness <span>(1)</span></a></li>
+                        <li><a href="category-life.html">Life <span>(2)</span></a></li>
+                        <li><a href="category-essays.html">Essays <span>(1)</span></a></li>
+                        <li><a href="category-books.html">Books <span>(1)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Newsletter</h3>
+                    <p class="sidebar-text">Join the community for weekly reflections and curated reads.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="newsletter-section">
+            <div class="container">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to receive new posts and updates in your inbox.</p>
+                <form class="newsletter-form-footer">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <p class="footer-title">The Quiet Corner</p>
+                        <p class="footer-copyright">© 2025 All rights reserved.</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <a href="#">RSS</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </nav>
+                </div>
+                <div class="footer-quote">
+                    <p>"The quieter you become, the more you can hear."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
