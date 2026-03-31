@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Joy of Handwritten Letters - The Quiet Corner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .post-page { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+        .post-header { margin-bottom: 2rem; }
+        .post-featured-image { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 2rem; }
+        .post-body { font-size: 1.125rem; line-height: 1.8; }
+        .post-body p { margin-bottom: 1.5rem; }
+        .post-body h2 { font-family: Georgia, serif; font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+        .post-body ul { margin: 1.5rem 0; padding-left: 2rem; }
+        .post-body li { margin-bottom: 0.5rem; }
+        .comments-section { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color); }
+        .comment { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; }
+        .comment-author { font-weight: 600; margin-bottom: 0.5rem; }
+        .comment-date { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.75rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="search-theme-wrapper">
+                    <input type="search" class="search-input" placeholder="검색...">
+                    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+                </div>
+            </div>
+            <div class="header-center">
+                <h1 class="site-title">The Quiet Corner</h1>
+                <p class="site-subtitle">Thoughts on life, creativity, and the art of slow living</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="post-page">
+        <article>
+            <header class="post-header">
+                <div class="post-meta">
+                    <span class="category">Life</span>
+                    <span class="date">January 8, 2025</span>
+                    <span class="reading-time">4 min read</span>
+                </div>
+                <h1 class="post-title">The Joy of Handwritten Letters</h1>
+                <div class="post-tags">
+                    <span class="tag">writing</span>
+                    <span class="tag">connection</span>
+                    <span class="tag">slow-living</span>
+                </div>
+                <div class="post-stats">
+                    <span>👁 856 views</span>
+                    <span>❤️ 64 likes</span>
+                </div>
+            </header>
+
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=450&fit=crop" alt="Handwritten Letters" class="post-featured-image">
+
+            <div class="post-body">
+                <p>There is something deeply personal about receiving a handwritten letter. The texture of the paper, the unique curve of someone's script—it carries a warmth that no email can replicate.</p>
+
+                <p>I started writing letters again three years ago, almost by accident. A friend moved overseas, and I wanted to send something more meaningful than a text message. So I bought a pack of simple stationery, sat down at my kitchen table, and wrote.</p>
+
+                <p>What surprised me wasn't just how much my friend appreciated receiving it—it was how much the act of writing itself changed me.</p>
+
+                <h2>The Slowness of Ink</h2>
+
+                <p>When you write by hand, you can't rush. Each word requires intention. You can't hit backspace or cut and paste. If you make a mistake, it stays—a small imperfection that makes the letter uniquely human.</p>
+
+                <p>This slowness forces you to think before you write. To choose your words carefully. To say what you actually mean rather than filling space with the easy phrases we default to in digital communication.</p>
+
+                <h2>A Tangible Connection</h2>
+
+                <p>A letter is a physical object that traveled through space to reach someone. It was touched by the sender's hands, carried by strangers, and delivered to a doorstep. There's something almost magical about that journey.</p>
+
+                <p>My friend told me she keeps my letters in a wooden box on her desk. She rereads them on difficult days. No email has ever been treated with such care.</p>
+
+                <h2>Starting Your Own Practice</h2>
+
+                <p>You don't need beautiful handwriting or expensive stationery. All you need is:</p>
+
+                <ul>
+                    <li>A pen you enjoy writing with</li>
+                    <li>Paper of any kind</li>
+                    <li>Someone you care about</li>
+                    <li>Twenty minutes of quiet time</li>
+                </ul>
+
+                <p>Write about your day. Ask questions. Share a memory. Draw a small doodle in the margin. The content matters far less than the act itself.</p>
+
+                <h2>Letters as Self-Care</h2>
+
+                <p>Writing letters has become one of my favorite rituals. Sunday mornings, with coffee and soft music, I sit down and write to someone. It's meditative. It connects me to the people I love in a way that feels real and grounded.</p>
+
+                <p>In a world of instant messages and disappearing stories, a handwritten letter says: you are worth my time, my attention, my care. And that message never gets old.</p>
+            </div>
+        </article>
+
+        <section class="comments-section">
+            <h2>Comments</h2>
+            <div class="comment">
+                <div class="comment-author">Emily Park</div>
+                <div class="comment-date">January 9, 2025</div>
+                <p>This inspired me to write a letter to my grandmother today. Thank you for the beautiful reminder.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="newsletter-section">
+            <div class="container">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to receive new posts and updates in your inbox.</p>
+                <form class="newsletter-form-footer">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <p class="footer-title">The Quiet Corner</p>
+                        <p class="footer-copyright">© 2025 All rights reserved.</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <a href="#">RSS</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </nav>
+                </div>
+                <div class="footer-quote">
+                    <p>"The quieter you become, the more you can hear."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

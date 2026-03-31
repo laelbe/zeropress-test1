@@ -38,9 +38,9 @@ const searchInput = document.querySelector('.search-input');
 if (searchInput) {
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
-            const query = e.target.value;
-            if (query.trim()) {
-                window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+            const query = e.target.value.trim();
+            if (query) {
+                alert(`"${query}"에 대한 검색 기능은 준비 중입니다.`);
             }
         }
     });

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life - The Quiet Corner</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .category-page { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+        .category-page h1 { font-family: Georgia, serif; font-size: 2rem; text-align: center; margin-bottom: 0.5rem; }
+        .category-page > p { text-align: center; color: var(--text-secondary); margin-bottom: 3rem; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="search-theme-wrapper">
+                    <input type="search" class="search-input" placeholder="검색...">
+                    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+                </div>
+            </div>
+            <div class="header-center">
+                <h1 class="site-title">The Quiet Corner</h1>
+                <p class="site-subtitle">Thoughts on life, creativity, and the art of slow living</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html" class="active">Categories</a></li>
+                    <li><a href="tags.html">Tags</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="category-page">
+        <h1>Life</h1>
+        <p>일상과 삶에 대한 이야기 모음입니다.</p>
+
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=450&fit=crop" alt="Handwritten Letters" class="post-image">
+            <div class="post-content">
+                <div class="post-meta">
+                    <span class="category">Life</span>
+                    <span class="date">January 8, 2025</span>
+                    <span class="reading-time">4 min read</span>
+                </div>
+                <h3 class="post-title"><a href="post-handwritten-letters.html">The Joy of Handwritten Letters</a></h3>
+                <p class="post-excerpt">There is something deeply personal about receiving a handwritten letter. The texture of the paper, the unique curve of someone's script—it carries a warmth that no email can replicate.</p>
+                <div class="post-tags">
+                    <span class="tag">writing</span>
+                    <span class="tag">connection</span>
+                    <span class="tag">slow-living</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800&h=450&fit=crop" alt="Morning Rituals" class="post-image">
+            <div class="post-content">
+                <div class="post-meta">
+                    <span class="category">Life</span>
+                    <span class="date">January 3, 2025</span>
+                    <span class="reading-time">4 min read</span>
+                </div>
+                <h3 class="post-title"><a href="post-morning-rituals.html">Morning Rituals That Changed Everything</a></h3>
+                <p class="post-excerpt">How the first hour of your day can set the tone for everything that follows. A personal exploration of morning practices that have brought more intentionality to my life.</p>
+                <div class="post-tags">
+                    <span class="tag">rituals</span>
+                    <span class="tag">productivity</span>
+                    <span class="tag">wellness</span>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="newsletter-section">
+            <div class="container">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to receive new posts and updates in your inbox.</p>
+                <form class="newsletter-form-footer">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <p class="footer-title">The Quiet Corner</p>
+                        <p class="footer-copyright">© 2025 All rights reserved.</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <a href="#">RSS</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </nav>
+                </div>
+                <div class="footer-quote">
+                    <p>"The quieter you become, the more you can hear."</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
