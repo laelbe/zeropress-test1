@@ -1,0 +1,34 @@
+{
+  "name": "zeropress-pages",
+  "private": true,
+  "version": "0.1.0-alpha.1",
+  "description": "Git-driven ZeroPress site starter for Cloudflare Workers and Pages",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeropress-app/zeropress-pages.git"
+  },
+  "homepage": "https://github.com/zeropress-app/zeropress-pages",
+  "bugs": {
+    "url": "https://github.com/zeropress-app/zeropress-pages/issues"
+  },
+  "keywords": [
+    "zeropress",
+    "cloudflare-workers",
+    "cloudflare-pages",
+    "static-site",
+    "starter"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "build": "rm -rf ./zp_dist && zeropress-build ./theme-blog --data ./preview-data.json --out ./zp_dist",
+    "dev": "npm run build && serve ./zp_dist -p 8080"
+  },
+  "dependencies": {
+    "@zeropress/build": "0.2.0",
+    "serve": "^14.2.6"
+  }
+}
